@@ -1,0 +1,7 @@
+<nav class="navbar">
+    <a routerLink="normal-view" routerLinkActive="active">Normal View</a>
+    <a routerLink="success-view" routerLinkActive="active">Success View</a>
+    <div class="navbar__actions">
+        <button (click)="handleSession()">{{isLogged() ? 'Logout' : 'Login'}}</button>
+    </div>
+</nav>
